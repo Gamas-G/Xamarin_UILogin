@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eeGsyHP9T0oR4XpmN98H8SFFlkdJKuU6IaPiip51bSiYc9RbOv/wiB3LQtXVMNmwzLdcf0sO5zHVXipCFcZDtw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kukul\\source\\repos\\Movil\\UILoginPage\\UILoginPage\\UILoginPage.iOS\\UILoginPage.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}
