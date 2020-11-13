@@ -3,22 +3,72 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UILoginPage.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+    <StackLayout Padding="0">
+        <Grid>
+            <StackLayout Padding="0" Margin="0">
+                <Frame HeightRequest="150" HorizontalOptions="FillAndExpand" Padding="0">
+                    <Image Source="https://www.pandotrip.com/wp-content/uploads/2016/07/li-Photo-by-Santo-980x572.jpg" Aspect="Fill" Margin="0"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout Margin="15, 110, 15, 0">
+                <Frame BackgroundColor="White" HasShadow="True" HeightRequest="480" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label Text="REGISTRARSE" FontSize="Medium" FontAttributes="Bold"></Label>
+                        </StackLayout>
+                        
+                        <StackLayout Margin="0, 25, 0, 0">
+                            <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
+                                        <Image Source="https://image.flaticon.com/icons/png/512/44/44948.png"/>
+
+                                    </Frame>
+                                    <Entry Placeholder="Email" TextColor="#e09b1c" HorizontalOptions="FillAndExpand" Margin="0, 0, 15, 0"></Entry>
+                                </StackLayout>
+                            </Frame>
+                            <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0,15,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
+                                        <Image Source="https://png.pngtree.com/png-vector/20190215/ourlarge/pngtree-vector-lock-icon-png-image_515444.jpg" Aspect="Fill" Margin="0"/>
+                                    </Frame>
+                                    <Entry Placeholder="Password" IsPassword="True" TextColor="#e09b1c" HorizontalOptions="FillAndExpand" Margin="0, 0, 15, 0"></Entry>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox IsChecked="false" Color="#e09b1c"/>
+                            <Label Text="Recordar" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+
+                            <Label Text="¿Olvidó su password?" HorizontalTextAlignment="End" TextColor="#e09b1c" HorizontalOptions="EndAndExpand" FontAttributes="Bold" VerticalTextAlignment="Center"/>
+
+                        </StackLayout>
+                        <Button Text="REGISTRARSE" BackgroundColor="#e09b1c" TextColor="White" FontAttributes="Bold" CornerRadius="20" />
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Label Text="¿Todavia no te conectas?" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+
+                            <Label Text="Regístrate" HorizontalTextAlignment="Center" TextColor="#e09b1c" FontAttributes="Bold" VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Grid>
+                                <BoxView BackgroundColor="DarkGray" HeightRequest="1" Margin="50" HorizontalOptions="FillAndExpand" WidthRequest="130"/>
+                                <Frame BackgroundColor="White" BorderColor="DarkGray" WidthRequest="50" Padding="0" Margin="0" HeightRequest="50" CornerRadius="30" HasShadow="False" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                                    <Label Text="O" TextColor="DarkGray" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Bold" VerticalTextAlignment="Center"/>
+                                </Frame>
+                            </Grid>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                <Frame BackgroundColor="#4081e3" WidthRequest="50" Padding="0" Margin="0" HeightRequest="50" CornerRadius="30" HasShadow="False">
+                                    <Image Source="https://www.shareicon.net/data/512x512/2015/10/02/110705_logo_512x512.png" Aspect="Fill" Margin="0"/>
+                                </Frame>
+                                <Frame BackgroundColor="#52ebff" WidthRequest="50" Padding="0" Margin="0" HeightRequest="50" CornerRadius="30" HasShadow="False">
+                                    <Image Source="https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg" Aspect="Fill" Margin="0"/>
+                                </Frame>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </Grid>
     </StackLayout>
 
 </ContentPage>

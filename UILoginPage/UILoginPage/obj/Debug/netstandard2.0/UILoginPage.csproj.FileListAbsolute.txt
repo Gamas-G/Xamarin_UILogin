@@ -1,0 +1,14 @@
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\bin\Debug\netstandard2.0\UILoginPage.deps.json
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\bin\Debug\netstandard2.0\UILoginPage.dll
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\bin\Debug\netstandard2.0\ref\UILoginPage.dll
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\bin\Debug\netstandard2.0\UILoginPage.pdb
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\obj\Debug\netstandard2.0\UILoginPage.csprojAssemblyReference.cache
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\obj\Debug\netstandard2.0\UILoginPage.AssemblyInfoInputs.cache
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\obj\Debug\netstandard2.0\UILoginPage.AssemblyInfo.cs
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\obj\Debug\netstandard2.0\UILoginPage.csproj.CoreCompileInputs.cache
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\obj\Debug\netstandard2.0\UILoginPage.dll
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\obj\Debug\netstandard2.0\ref\UILoginPage.dll
+C:\Users\kukul\source\repos\Movil\UILoginPage\UILoginPage\UILoginPage\obj\Debug\netstandard2.0\UILoginPage.pdb
